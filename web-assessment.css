@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(161, 157, 157);
+  background-color: rgb(237, 238, 238);
 }
 .head-bar {
   display: flex;
@@ -88,6 +88,10 @@ body {
   padding: 16px;
 }
 
+.small-topic-box:hover {
+  background-color: rgb(189, 189, 189);
+}
+
 .small-picture {
   width: 35%;
 }
@@ -109,4 +113,6 @@ body {
 
 .small-picture-desc nav a {
   text-decoration: none;
+  margin-left: 0%;
+  color: rgb(10, 99, 201);
 }
