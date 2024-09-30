@@ -41,9 +41,16 @@ body {
 }
 
 .welcome-text {
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
+}
+
+.welcome-text h1 {
+  font-size: 52px;
+  margin: 10px 0;
 }
 
 .welcome-text nav {
@@ -96,10 +103,6 @@ body {
   width: 35%;
 }
 
-#mobile-picture {
-  display: none;
-}
-
 .small-picture-desc {
   width: 65%;
   display: flex;
@@ -115,4 +118,54 @@ body {
   text-decoration: none;
   margin-left: 0%;
   color: rgb(10, 99, 201);
+}
+
+/* section learning */
+.learning-head {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.learning-head h1 {
+  margin: 32px 0 0 0;
+}
+
+.learning-block {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 72px;
+  gap: 32px;
+}
+
+.learning-block-row {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  border: 1px solid black;
+}
+
+.learning-card {
+  display: flex;
+  flex-direction: column;
+  width: 30.5%;
+  border: 1px solid black;
+}
+
+.learning-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-desc {
+  padding: 16px;
+  background-color: white;
+  height: 100%;
+}
+
+.card-desc p {
+  margin: 8px 0;
+}
+
+#com-art {
+  margin: 8px 0 24px 0;
 }
