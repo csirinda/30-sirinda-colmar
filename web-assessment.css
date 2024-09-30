@@ -81,6 +81,15 @@ body {
 .large-topic-desc {
   display: flex;
   flex-direction: column;
+  padding: 32px 0 0 0;
+}
+
+.large-topic-desc h1 {
+  margin: 0 0 24px 0;
+}
+
+.large-topic-desc p {
+  margin-top: 0px;
 }
 
 .small-topic {
@@ -139,7 +148,7 @@ body {
 
 .learning-block-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 32px;
   border: 1px solid black;
 }
@@ -168,4 +177,62 @@ body {
 
 #com-art {
   margin: 8px 0 24px 0;
+}
+
+/* section thesis */
+.thesis-head {
+  text-align: center;
+}
+
+.thesis-head h1 {
+  margin: 32px 0 0 0;
+}
+
+.thesis-parent {
+  display: flex;
+}
+
+.thesis-video {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.video-desc h2 {
+  margin: 24px 0 8px 0;
+}
+
+.video-desc p {
+  margin: 0;
+}
+
+.thesis-gall {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
+.thesis-card {
+  display: flex;
+  padding: 16px;
+}
+
+.thesis-card:hover {
+  background-color: rgb(173, 171, 171);
+}
+
+.thesis-picture {
+  width: 35%;
+}
+
+.thesis-picture-desc {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 16px;
+}
+
+.thesis-picture-desc * {
+  margin: 8px;
 }
