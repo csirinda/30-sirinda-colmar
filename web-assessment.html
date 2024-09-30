@@ -13,10 +13,25 @@
           <div class="left-bar-item">
             <img id="logo" src="./images/ic-logo.svg" />
           </div>
+          <!--display on desktop-->
           <div id="colmar" class="left-bar-item">COLMAR</div>
+          <!--display on desktop-->
           <div id="academy" class="left-bar-item">ACADEMY</div>
+          <!--display on mobile-->
+          <div id="on-campus" class="left-bar-item">
+            <img src="./images/ic-on-campus.svg" />
+          </div>
+          <!--display on mobile-->
+          <div id="online" class="left-bar-item">
+            <img src="./images/ic-online.svg" />
+          </div>
+          <!--display on mobile-->
+          <div id="login" class="left-bar-item">
+            <img src="./images/ic-login.svg" />
+          </div>
         </div>
 
+        <!-- display on desktop -->
         <div class="right-bar">
           <div class="right-bar-item">On campus</div>
           <div class="right-bar-item">Online</div>
@@ -76,6 +91,11 @@
                   src="./images/information-orientation.jpg"
                   width="100%"
                 />
+                <img
+                  id="mobile-picture"
+                  src="./images/information-orientation-mobile.jpg"
+                  width="100%"
+                />
               </div>
               <div class="small-picture-desc">
                 <h3>Orientation date</h3>
@@ -91,6 +111,11 @@
                   src="./images/information-campus.jpg"
                   width="100%"
                 />
+                <img
+                  id="mobile-picture"
+                  src="./images/information-campus-mobile.jpg"
+                  width="100%"
+                />
               </div>
               <div class="small-picture-desc">
                 <h3>Our campus</h3>
@@ -104,6 +129,11 @@
                 <img
                   id="desktop-picture"
                   src="./images/information-guest-lecture.jpg"
+                  width="100%"
+                />
+                <img
+                  id="mobile-picture"
+                  src="./images/information-guest-lecture-mobile.jpg"
                   width="100%"
                 />
               </div>
@@ -210,7 +240,7 @@
             <!-- right column -->
             <div class="thesis-video">
               <div class="video-player">
-                <video width="100%">
+                <video width="100%" controls>
                   <source src="./videos/thesis.mp4" type="video/mp4" />
                 </video>
               </div>
@@ -251,5 +281,15 @@
         </div>
       </section>
     </main>
+    <!-- footer -->
+    <footer>
+      <div class="foot-block">
+        <div class="left-foot">© 2016 Colmar Academy All rights reserved</div>
+        <div class="right-foot">
+          <nav><a href="#">Terms</a></nav>
+          <nav><a href="#">Privacy</a></nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
