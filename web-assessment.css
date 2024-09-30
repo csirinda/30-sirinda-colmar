@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(161, 157, 157);
+}
+.head-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+  padding: 0 24px 0 24px;
+  margin-bottom: 32px;
+  background-color: white;
+}
+
+.left-bar {
+  display: flex;
+  align-items: center;
+}
+
+#colmar {
+  font-weight: bold;
+}
+
+#academy {
+  color: gray;
+}
+
+.right-bar {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+/* section welcome */
+.welcome {
+  display: flex;
+}
+
+.welcome-picture {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-text nav {
+  background-color: gray;
+  width: 60%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.welcome-text nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* section topic */
+.topic {
+  border: 1px solid black;
+  display: flex;
+  width: 100%;
+}
+
+.large-topic {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.large-topic-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-topic {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 16px 0px;
+}
+
+.small-topic-box {
+  display: flex;
+  padding: 16px;
+}
+
+.small-picture {
+  width: 35%;
+}
+
+#mobile-picture {
+  display: none;
+}
+
+.small-picture-desc {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.small-picture-desc * {
+  margin: 8px;
+}
+
+.small-picture-desc nav a {
+  text-decoration: none;
+}
